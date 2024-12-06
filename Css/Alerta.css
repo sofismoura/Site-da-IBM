@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #93221f;
+    width: auto;
+    height: 100px;  
+}
+
+
+#topbar {
+    background-color: #93221f;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.toptext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Hammersmith One";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbutton {
+    background-color: #93221f;
+    border: none;
+    margin-left: 4rem ;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+}
+
+main{
+    width: 750px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  2px 2px 20px #000000;
+    border-radius: 15px;
+    font-family: "Hammersmith One", serif;
+}
+
+.vermelho{
+    background-color: #93221f;
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Alinha ao fundo e à direita de main */
+    margin-right: auto;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.destaque{
+    color: #93221f;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-right: auto;
+    margin-left: 45px;
+    margin-bottom:10px;   
+    justify-content: flex-start; /* Garante que ele se alinhe ao topo */
+    align-items: flex-start; /* Garante que ele se alinhe à esquerda */
+    /* position: absolute; /* Permite posicionamento fixo */
+    /* top: 230px;  
+    left: 390px;  */
+}
+
+.destaque p {
+    color: #b8aeae; /* Altera a cor do texto do p */
+    font-size: 16px; /* Altera o tamanho da fonte do p */
+    margin: 0; /* Remove margens no p */
+    display: block; /* Garante que o p se comporte como um bloco */
+    flex-direction: column;
+    position: absolute;
+    right: 0; /* Alinha ao fundo e à direita de main */
+    margin-left: auto;
+    margin-right: 15px;
+    top: 20px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alert{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: 8px;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alert h2 {
+    margin-left: 1rem;
+}
+
+.fa-solid  {
+    font-size: 50px;  /* Aumenta o tamanho do ícone */
+    color: #93221f;       /* Altera a cor do ícone para vermelho */
+    margin-left: 10px;     /* Adiciona um espaçamento ao redor */
+
+}
+
+.random{
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dawn{
+    font-weight: bold;
+}
+
+.red{
+    font-family: Arial, Helvetica;
+    background-color: #93221f;
+    color: rgb(255, 255, 255);
+    width: 650px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.red h1{
+    font-size: 25px;
+    text-decoration: underline;
+    display: block; /* Garante que o p se comporte como um bloco */
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.red p{
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family:  "Hammersmith One";
+}
+
+.red button{
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    margin-bottom: 20px;
+    color: #93221f;
+    font-size: 25px;
+}
+
+.red .butam{
+    display: flex; /* Alinha o p e o button na mesma linha */
+    gap: 150px; /* Adiciona espaço entre o p e o button */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.butam p {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+

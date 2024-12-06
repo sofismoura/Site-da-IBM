@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #93221f;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.toptext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbutton {
+    background-color: #93221f;
+    border: none;
+    margin-left: 4rem ;
+}
+
+.aulas-div {
+    box-shadow: 2px 2px 20px #000000;
+    width: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+    height: 60px;
+}
+
+.titulo-aulas {
+    font-weight: bold;
+    color: #93221f;
+    margin-left: 2rem;
+    font-size: 30px;
+    width: 1000px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vermelho {
+    color: #93221f;
+    background-color: #93221f;
+    height: 60px;
+    width: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.status {
+    font-size: 15px;
+    color: #808080;
+    margin-right: 1rem;
+    width: 210px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

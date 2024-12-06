@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.título {font-family: "Hammersmith One";
+    color: #93221F;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn , .btn2 , .btn3{
+    padding: 25px 60px;
+    display: inline;
+    background-color: #93221F;
+    border-radius: 30px;
+    left: 180px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    position: absolute;
+    z-index: 1;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 2rem;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2 {
+    margin-left: 29%;
+}
+
+.btn3 {
+    margin-left: 58%;
+}
+
+.btn:hover , .btn2:hover , .btn3:hover{
+    background-color: #be3631;
+}
+
+.modal-container , .modal-container2 , .modal-container3{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #00000038;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-family: "Hammersmith One";
+}
+
+.modal{
+    width: 60%;
+    min-width:400px;
+    min-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Hammersmith One";
+}
+
+.fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #93221F;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+    font-family: "Hammersmith One";
+}
+
+
+.modal h1{
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hammersmith One";
+    display: flex;
+}
+
+.modal p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: "Hammersmith One";
+}
+
+
+@keyframes animate-modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.modal-container.mostrar , .modal-container.mostrar2 , .modal-container.mostrar3{
+    display: flex;
+}
+
+.mostrar , .mostrar2 , .mostrar3 .modal , .modal2 , .modal3{
+    animation: animate-modal .3s;
+}
+
+.fechar , .fechar2 , .fechar3{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #93221F;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+@keyframes animate-modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar , .mostrar2 , .mostrar3 , .modal , .modal2 , .modal3{
+    animation: animate-modal .3s;
+}
+
+.titulo2 {
+    color: #93221F;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.img , .img2 , .img3 {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+p {
+    color: black;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1rem;
+    word-wrap: break-word;
+    width: 45rem;
+}
+
+.main {
+    margin-top: 10rem;
+}
+
+@keyframes animate-modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, -20px, -5px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.open .modal, .open2 .modal2, .open3 .modal3{
+    animation: animate-modal .0.5s;
+}
+
+.modal-container.open , .modal-container.open2 , .modal-container.open3{
+    display: flex;
+}
+
+@media screen and (max-width: 999px) {
+
+    #titulo-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .título {
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .btn {
+        margin-left: -29%;
+    }
+    
+    .btn2 {
+        margin-left: -31%;
+        margin-top: 8rem;
+    }
+    
+    .btn3 {
+        margin-left: -35%;
+        margin-top: 14rem;
+    }
+        
+    .titulo2 {
+        color: #93221F;
+        font-family: "Inter";
+        font-optical-sizing: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline #93221F;
+    }
+
+    .img {
+        display: none; 
+    }
+
+
+    p {
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        text-align: justify;
+        margin-top: 1rem;
+        word-wrap: break-word;
+        width: 22rem; 
+    }
+
+    .main {
+        margin-top: 22rem;
+    }
+
+    .modal-container , .modal-container2 , .modal-container3{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background-color: #00000038;
+        z-index: 999;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-family: "Hammersmith One";
+    }
+    
+    .modal{
+        width: 60%;
+        min-width: 360px;
+        min-height: 200px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 20px #000000;
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 10px;
+        font-family: "Hammersmith One";
+    }
+
+    .modal p{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+}

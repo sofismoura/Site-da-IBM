@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#banner {
+    width: 1254px;
+    height: auto;
+}
+
+#blocos , #Imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocos {
+    margin-top: 2rem;
+}
+
+#blocos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#bloco{
+    width: 540px;
+    height: 280px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+    display: flex;
+}
+
+.b1{
+    margin-right: 8rem;
+    display: flex;
+}
+
+#Imagem {
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+    margin-top: 2rem;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.title {
+    font-size: 45px;
+    margin-top: 4.5rem;
+    justify-content: center;
+    display: flex;
+    margin-left: 2rem;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 56px;
+}
+
+.t2 {
+    width: 340px;
+    margin-left: 0;
+}
+
+.bloco-p {
+    width: 452px;
+    height: 68px;
+    margin-top: 11rem;
+    margin-left:-20rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p2 {
+    margin-left: -452px;
+}
+
+.p4 {
+    margin-left: -422px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.imagem-logo {
+    position: relative;
+}
+
+.imagem-logo .fa-solid {
+    color: #ffffff;
+    font-size: 3.5rem;
+    position: absolute;
+}
+
+.imagem-logo .fa-chalkboard-user {
+    margin-left: 3.4rem;
+    bottom: 9.7rem;
+}
+
+.imagem-logo .fa-desktop {
+    margin-left: 3.8rem;
+    bottom: 10rem;
+}
+
+.imagem-logo .fa-file-lines {
+    margin-left: 4.5rem;
+    bottom: 10rem;
+}
+
+.imagem-logo .fa-bell {
+    margin-left: 4.2rem;
+    bottom: 10rem;
+}
+
+@media (max-width: 999px){
+
+    
+#banner {
+    width: 420px;
+    height: auto;
+    margin-left: 0.2rem;
+}
+
+#blocos , #blocos2 {
+    flex-direction: column;
+}
+
+#blocos , #Imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocos {
+    margin-top: 2rem;
+}
+
+#blocos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#bloco{
+    width: 400px;
+    height: 180px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.b1{
+    margin-right: 8rem;
+    display: flex;
+}
+
+.b2 {
+    margin-top: 2rem;
+}
+
+#Imagem {
+    border-radius: 100px;
+    width: 65px;
+    height: 65px;
+    margin-top: 1rem;
+    justify-content: left;
+    margin-left: 1rem;
+}
+
+.title {
+    font-size: 35px;
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    margin-left: 2rem;
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 56px;
+}
+
+.t2 {
+    margin-left: -2rem;
+}
+
+.bloco-p {
+    width: 452px;
+    height: 68px;
+    margin-top: 6rem;
+    margin-left: -14rem;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p2 {
+    margin-left: -372px;
+    width: 360px;
+}
+
+.p4 {
+    margin-left: -302px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.imagem-logo {
+    position: relative;
+}
+
+.imagem-logo .fa-solid {
+    color: #ffffff;
+    font-size: 2.2rem;
+    position: absolute;
+}
+
+.imagem-logo .fa-chalkboard-user {
+    margin-left: 1.5rem;
+    bottom: 7rem;
+}
+
+.imagem-logo .fa-desktop {
+    margin-left: 1.81rem;
+    bottom: 7rem;
+}
+
+.imagem-logo .fa-file-lines {
+    margin-left: 2.3rem;
+    bottom: 7.2rem;
+}
+
+.imagem-logo .fa-bell {
+    margin-left: 2.1rem;
+    bottom: 7.2rem;
+}
+
+  #user {
+    margin-top: 2rem;
+  }
+  
+  #user_avatar {
+    width: 170px;
+    height: 170px;
+  }
+  
+  #name-div {
+    width: 200px;
+    height: 30px;
+  }
+  
+  #user_items {
+    font-size: 17px;
+    margin-left: 0.3rem;
+  }
+  
+  #curso-div {
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+  }
+  
+  #curso_items {
+    font-size: 20px;
+    margin-left: 0.6rem;
+  }
+  
+  #side_items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    background: #93221F;
+    margin-top: 1.5rem;
+  }
+  
+  .side-item {
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+  }
+  
+  .side-item:first-child {
+    margin-top: 1.5rem;
+  }
+  
+  .side-item.active {
+    background-color: #b12b26;
+  }
+  
+  .side-item:hover:not(.active), #logout_btn:hover {
+    background-color: #c9302b;
+  }
+  
+  .side-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a0a0a;
+  }
+  
+  .side-item.active a {
+    color: #e3e9f7;
+  }
+  
+  .side-item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+  }
+  
+  #logout {
+    padding: 0px;
+  }
+  
+  #logout_btn {
+    border: none;
+    padding: 14px;
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 8px;
+    text-align: start;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  header .fa-solid , .fa-regular {
+    font-size: 20px;
+  }
+  
+  .item-description {
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    transition: width .6s;
+    height: 0px;
+    color: #ffffff;
+    margin-left: 0rem;
+  }
+  
+  #sidebar.open-sidebar {
+    min-width: 15%;
+  }
+  
+  #sidebar.open-sidebar .item-description {
+    width: 100%;
+    height: auto;
+  }
+  
+  #sidebar.open-sidebar .side-item a {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+}

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#topbar {
+    background-color: #93221f;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.toptext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbutton {
+    background-color: #93221f;
+    border: none;
+    margin-left: 4rem ;
+}
+
+#m-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#linha-vermelha {
+    background-color: #93221f;
+    width: 112px;
+    height: 5px;
+    transform: rotate(90deg);
+    margin-right: 8rem;
+}
+
+.login-texto {
+    font-size: 30px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2rem;
+}
+
+#login-1 {
+    width: 600px;
+    height: 112px;
+}
+
+#login-2 {
+    width: 462px;
+    height: 112px;
+}
+
+#Aplicativos, #Aplicativos2 {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-app {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.name-app {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+#aplicativo2 {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.aplicativo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 366px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+}
+
+#apostila-texto {
+    font-size: 30px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Apostilas-Titulo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+#Apostilas {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apostila {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 366px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 30px;
+}
+
+#apostila2 {
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.img-apostila {
+    width: 209px;
+    height: 232px;
+}
+
+.name-apostila {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.numero-apostila {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 14rem;
+    color: #ffffff;
+    position: absolute;
+    font-size: 33px;
+}

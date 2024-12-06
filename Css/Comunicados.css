@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #93221f;
+    width: auto;
+    height: 100px;
+    
+}
+
+#topbar {
+    background-color: #93221f;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.toptext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Hammersmith One";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.topbutton {
+    background-color: #93221f;
+    border: none;
+    margin-left: 4rem ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+}
+
+.solos {
+    width: 55px;
+    height: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+main{
+    width: 750px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:  2px 2px 20px #000000;
+    border-radius: 30px;
+}
+
+.destaque{
+    color: black;
+    font-size: 20px;   
+    margin-left: 20px;
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.destaque .her {
+    color: rgb(0, 0, 0); /* Altera a cor do texto do p */
+    margin: 0; /* Remove margens no p */
+    display: block; /* Garante que o p se comporte como um bloco */
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 1.5rem;
+}
+
+.her p {
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.around{
+    margin-top: 1.5rem;
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0.5rem;
+}
+.around h2 {
+    font-size: 20px;
+}
+
+.alert{
+    display: flex;
+    margin-top: 15px;
+    color: #93221f;
+    text-align: justify;
+    margin-right: 120px;
+    margin-left: 1.5rem;
+}
+
+.alert h2 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.random{
+    margin-top: 5px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.random p {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
